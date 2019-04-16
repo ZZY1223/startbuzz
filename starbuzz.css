@@ -85,9 +85,30 @@ div#tableRow{
 }
 
 #drinks{
-
+  display: table-cell;
   background-color:#efe5d0;
   widows: 20%;
   padding:15px;
   vertical-align:top;
+}
+
+.zzy{
+  float:left;
+  background-image: url(images/header.gif);
+  width:400px;
+  height:100px;
+}
+
+.qaa{
+  float:right;
+  background-image: url(images/header.gif);
+  width:400px;
+  height:100px;
+  background-position: -400px,0px;
+}
+
+#award {
+  position:absolute;
+  top:     30px;
+  left:    365px;
 }
